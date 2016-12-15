@@ -1,7 +1,7 @@
 {
   "name": "nunjucks-route-coc",
   "description": "A powerful templating engine with inheritance, asynchronous control, and more (jinja2 inspired)",
-  "version": "3.0.1-dev.1",
+  "version": "1.0.0",
   "author": "tofishes",
   "dependencies": {
     "a-sync-waterfall": "^1.0.0",
