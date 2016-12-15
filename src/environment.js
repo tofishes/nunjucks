@@ -373,7 +373,11 @@ var Context = Obj.extend({
 
     addBlock: function(name, block) {
         this.blocks[name] = this.blocks[name] || [];
-        this.blocks[name].push(block);
+
+        if (Array.isArray(this.blocks[name])) {
+            this.blocks[name].push(block);
+        }
+
         return this;
     },
 
